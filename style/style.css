@@ -1,0 +1,39 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url('../Assets/Hero-bg.png');
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    padding: 50px 0;
+}
+.b{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+nav img{
+    height: auto;
+    width: 100px;
+    padding: 5px 0;
+}
+.banner{
+    
+    max-width: 905px;
+    margin: 155px auto;
+    padding-bottom: 155px;
+    align-items: center;
+    text-align: center;
+}
+.title{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
