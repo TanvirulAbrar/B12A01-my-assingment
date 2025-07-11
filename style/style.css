@@ -91,6 +91,7 @@ border-radius: 48px;
 .Centered-title{
     font-size: 40px;
     font-weight: bold;
+    margin-bottom: 40px;
 }
 .p-title1{
     font-size: 80px;
@@ -102,4 +103,47 @@ border-radius: 48px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
+.get-touch{
+    display: flex;
+    justify-content: space-between;
+    gap: 115px;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.g-inputs{
+    display: block;
+}
+.g-input{
+    display: block;
+    width: 500px;
+    height: 70px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    padding-left: 32px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
+.g-title{
+    font-size: 97px;
+    font-weight: bold;
+    /* color: #4E47FF; */
+}
+.input-lev{
+    font-size: 18px;
+    /* color: #4E47FF; */
+}
+.bb{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4E47FF;
+    padding: 19px 200px;
+    border: none;
+    border-radius: 10px;
+}
+  
