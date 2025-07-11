@@ -3,6 +3,7 @@
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
+    /* background-color: #d3d1ff2c; */
 }
 header{
     background-image: url('../Assets/Hero-bg.png');
@@ -12,6 +13,12 @@ nav{
     justify-content: space-between;
     margin: 0 150px;
     padding: 50px 0;
+}
+nav h1{
+    font-size: 34px;
+    font-weight: 800;
+    /* text-align: center; */
+    color: #4E47FF;
 }
 .b{
     font-size: 10px;
@@ -118,18 +125,18 @@ border-radius: 48px;
 }
 .g-input{
     display: block;
-    width: 500px;
+    width: 470px;
     height: 70px;
     border: 1px solid #D6DDED;
     border-radius: 10px;
-    padding-left: 32px;
+    padding-left: 30px;
     font-size: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 #massage{
     display: block;
-    width: 470px;
+    width: 440px;
     height: 135px;
     /* width: 100%; */
     border: 1px solid #D6DDED;
@@ -155,8 +162,39 @@ border-radius: 48px;
     font-weight: bold;
     color: white;
     background-color: #4E47FF;
-    padding: 19px 200px;
+    padding: 19px 202px;
     border: none;
     border-radius: 10px;
+}
+footer{
+    align-items: center;
+    text-align: center;
+}
+.footer-containt{
+    max-width: 520px;
+    margin: 103px auto;
+}
+.footer-containt div{
+    display: flex;
+    justify-content: space-around;
+    gap: 48px;
+}
+footer h1{
+    font-size: 100px;
+    font-weight: 800;
+    text-align: center;
+    color: #4E47FF;
+}
+footer p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(137, 135, 161, 1);
+    margin-bottom: 20px;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(137, 135, 161, 1);
 }
   
